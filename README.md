@@ -20,9 +20,9 @@ Pronto, a aplicação está funcional no endereço http://localhost:8080/units/s
 
 Será possível testar ao colocar em {variables} o valor degree/minute, por exemplo:
 
-// http://localhost:8080/units/si?units=(degree/minute)
-
-{
-  "unit_name": "(rad/s)",
-  "multiplication_factor": 0.00029088820866572163
-}
+> // http://localhost:8080/units/si?units=(degree/minute)
+>
+>  {
+>    "unit_name": "(rad/s)",
+>    "multiplication_factor": 0.00029088820866572163
+>  }

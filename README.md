@@ -6,15 +6,15 @@ Uma aplicação de conversão de unidades para o Sistema Internacional, e calcul
 
 Criar o arquivo .jar:
 
-$> mvn clean package
+>  $>mvn clean package
 
 Agora, para criar a imagem Docker utilizar o comando:
 
-$> docker build --tag=conversionunits:latest .
+> $> docker build --tag=conversionunits:latest .
 
 Por fim, é possivel rodar o conteiner da imagem:
 
-$> docker run -p8080:8080 conversionunits:latest
+> $> docker run -p8080:8080 conversionunits:latest
 
 Pronto, a aplicação está funcional no endereço http://localhost:8080/units/si?units=({variables})
 

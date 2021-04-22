@@ -16,7 +16,7 @@ Por fim, é possivel rodar o conteiner da imagem:
 
 $> docker run -p8080:8080 conversionunits:latest
 
-Pronto, a aplicação estará rodando no http://localhost:8080/units/si?units=({variables})
+Pronto, a aplicação está funcional no endereço http://localhost:8080/units/si?units=({variables})
 
 Será possível testar ao colocar em {variables} o valor degree/minute, por exemplo:
 
